@@ -1,3 +1,3 @@
 # workshop-git-aspire-XX
-test
 Features: Add, Subtract, Multiply, Divide
+Run tests with: `pytest`
