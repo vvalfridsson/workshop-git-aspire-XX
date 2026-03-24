@@ -1,6 +1,6 @@
 """Console calculator entry point."""
 from calculator import add
-def run():
+def main():
     print("1) Subtract\n0)Exit")
     choice = input("Select")
     a = float(input("a: "))    
