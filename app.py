@@ -9,7 +9,7 @@ def main():
     b = float(input(...))
     a = float(input("a: "))    
     b = float(input("b: "))
-    print(add(a, b))
+    print(f"{add(a, b):-2f}")
     if option == "3": print(mul(a, b))
     if option == "4" and b == 0: print("Error: division by zero")
 if __name__ == "__main__":
@@ -17,3 +17,4 @@ if __name__ == "__main__":
     main()
 else:
     print("Unknown option")
+    
