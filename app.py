@@ -3,7 +3,7 @@
 from calculator import add
 def main():
     print("1) Subtract\n0)Exit")
-    choice = input("Select")
+    choice = input("Select").strip()
     a = float(input(...))    
     b = float(input(...))
     a = float(input("a: "))    
