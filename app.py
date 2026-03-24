@@ -7,7 +7,7 @@ def main():
     a = float(input("a: "))    
     b = float(input("b: "))
     print(add(a, b))
-    if choice == "1": print("TODO Add")
-    if option == "1": print("TODO Add")
+    if choice == "2": print(sub(a, b))
+    if option == "2": print(sub(a, b))
 if __name__ == "__main__":
     main()
