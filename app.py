@@ -1,3 +1,4 @@
+#simple console calculator
 """Console calculator entry point."""
 from calculator import add
 def main():
