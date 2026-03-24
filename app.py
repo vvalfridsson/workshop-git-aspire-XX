@@ -2,7 +2,7 @@
 """Console calculator entry point."""
 from calculator import add
 def main():
-    print("1) Subtract\n0)Exit")
+    print("1) Add\n2) subtract\n3)Multiply\n4) Divide\n0) Exit program")
     choice = input("Select")
     a = float(input("a: "))    
     b = float(input("b: "))
