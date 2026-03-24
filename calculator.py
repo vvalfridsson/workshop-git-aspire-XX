@@ -1,1 +1,1 @@
-def sub(a, b): return a - b
+print("1) Add\n2) Subtract\n0) Exit")
