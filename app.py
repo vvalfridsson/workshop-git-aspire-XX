@@ -4,6 +4,7 @@ from calculator import add
 def main():
     print("1) Subtract\n0)Exit")
     choice = input("Select").strip()
+    #Note: Simple input parsing; consider try/exept for robust handling.
     a = float(input(...))    
     b = float(input(...))
     a = float(input("a: "))    
