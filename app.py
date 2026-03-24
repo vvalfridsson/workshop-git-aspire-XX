@@ -1,5 +1,8 @@
-from calculator import add
+from calculator import add, sub, mul, div
 def run():
-    print("1) Add\n2) Subtract\n3) Multiply\n0) Exit")
+    print("1) Subtract\n0)Exit")
     choice = input("Select")
-    
+    a = float(input("a: "))    
+    b = float(input("b: "))
+    print(add(a, b))
+    if choice == "4": print(div(a, b))
