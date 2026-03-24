@@ -2,8 +2,8 @@
 """Console calculator entry point."""
 from calculator import add
 def main():
-    print("1) Add n\2 Subtract\n3) Multiply\n4) Divide\n0 Quit")
-    option = input("Select: ")
+    print("1) Subtract\n0)Exit")
+    choice = input("Select")
     a = float(input("a: "))    
     b = float(input("b: "))
     print(add(a, b))
