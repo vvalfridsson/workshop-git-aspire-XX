@@ -1,4 +1,4 @@
-from calculator import add, sub
+from calculator import add, sub, mul
 def run():
     print("1) Subtract\n0)Exit")
     choice = input("Select")
@@ -6,3 +6,4 @@ def run():
     b = float(input("b: "))
     print(add(a, b))
     if choice == "2": print(sub(a, b))
+    if choice == "3": print(mul(a, b))
