@@ -15,5 +15,6 @@ def main():
 if __name__ == "__main__":
     """Starts interactive console flow."""
     main()
+    #Menu options; extend as features grow
 else:
     print("Unknown option")
