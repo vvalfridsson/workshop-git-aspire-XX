@@ -4,6 +4,8 @@ from calculator import add
 def main():
     print("1) Subtract\n0)Exit")
     choice = input("Select")
+    a = float(input(...))    
+    b = float(input(...))
     a = float(input("a: "))    
     b = float(input("b: "))
     print(add(a, b))
